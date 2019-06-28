@@ -1,0 +1,135 @@
+*{margin:0;padding:0;font-family:"Microsoft YaHei","微软雅黑";box-sizing:border-box;}
+a{text-decoration:none;}
+ul{list-style:none;}
+div{display:block;}
+/*------header-------------------------------------------start*/
+.header{
+    width:100%;height:90px;
+    background:#fff;
+    margin:0 auto;
+}
+.header .header-center{
+    width:1170px;height:90px;
+    margin:0 auto;
+    padding:0 15px;
+}
+.header .header-center .list{
+    width:1170px;height:90px;
+    margin:0 -15px;
+}
+/*------导航栏·左边模块------*/
+.header .header-center .list .list-left{
+    width:585px;height:90px;
+    padding:0 15px;
+    float:left;
+}
+
+/*BOE logo样式*/
+.logo{
+    display: inline-block;
+    width: 75px;
+    height: 35px;
+    background: url("../images/header/headerLogo.jpg") no-repeat 0px -10px;
+    cursor: pointer;
+    background-size:100%;
+}
+.header .header-center .list .list-left .ul-left{
+    width:585px;height:90px;
+    margin:0 -15px;
+}
+.header .header-center .list .list-left .ul-left li{
+    float:left;
+}
+.header .header-center .list .list-left .ul-left .li-left-1{
+    width:146.25px;height:80px;
+    padding:40px 5px 0;
+}
+.header .header-center .list .list-left .ul-left .li-left-2{
+    width:97.5px;height:90px;
+    text-align:center;
+    line-height:35px;
+    padding-top:40px;
+}
+.header .header-center .list .list-left .ul-left .li-left-2 a{
+    color:#3f3f3f;
+    font-size:16px;
+}
+
+/*------导航栏·右边模块------*/
+.header>div .list .list-right{
+    width:487.5px;height:90px;
+    margin-left:97.5px;
+    padding:0 15px;
+    float:left;
+}
+.header>div .list .list-right .ul1-right{
+    width:487.5px;height:35px;
+    margin:0 -15px 10px;
+}
+.header>div .list .list-right .ul1-right li{
+    padding:0 5px;
+    text-align:center;
+    line-height:35px;
+    float:left;
+}
+.header>div .list .list-right .ul1-right .li-right1-1{
+    width:74px;height:35px;
+}
+#header>div .list .list-right .ul1-right .li-right1-2{
+    width:90px;height:35px;
+    margin-left:40px;
+}
+.header>div .list .list-right .ul1-right .li-right1-3{
+    width:74px;height:35px;
+    margin-left:40px;
+}
+.header>div .list .list-right .ul1-right .li-right1-4{
+    width:95px;height:35px;
+    margin-left:40px;
+}
+.header>div .list .list-right .ul1-right li a{
+    color:#3f3f3f;
+    font-size:16px;
+}
+.header>div .list .list-right .ul2-right{
+    width:487.5px;height:25px;
+    margin:0 -15px;
+}
+.header>div> .list .list-right .ul2-right li{
+    text-align:center;
+    padding:0 5px;
+    float:left;
+}
+.header>div .list .list-right .ul2-right .li-right2-1{
+    width:284.5px;height:25px;
+    margin:auto;
+}
+.header>div> .list .list-right .ul2-right .li-right2-2{
+    width:162.48px;height:20px;
+    color:#333;
+    font-size:14px;
+    margin:2.5px 0 2.5px 30px;
+}
+.header>div> .list .list-right .ul2-right .li-right2-1 input{
+    width:230px;height:25px;
+    color:#555;
+    font-size:14px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    background:#fff;
+    box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+    padding:6px 12px;
+    float:left;
+}
+.header>div .list .list-right .ul2-right .li-right2-1 a #search{
+    width: 40px;height:25px;
+    float: left;
+    background: url("../images/header/nav-icon.png") no-repeat -111px -12px;
+}
+.header>div .list .list-right .ul2-right .li-right2-2 a{
+    width:47.84px;height:20px;
+    display:inline-block;
+    font-size:14px;
+    color:#666;
+    margin-left:50px;
+}

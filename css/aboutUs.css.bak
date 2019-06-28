@@ -1,0 +1,233 @@
+/*首栏*/
+.The-first-column{
+	width:100%;height:50px;
+	background:#E5E5E5;
+	color:#000;
+	border-bottom:1px solid rgba(0,0,0,.2);
+	padding:0 15px;
+}
+.The-first-column div{
+	width:1170px;height:50px;
+	margin:0 auto;
+	padding:0 15px;
+	line-height:50px;
+}
+.The-first-column div .The-first-column-1{
+	width:30px;height:20px;
+	color:#000;
+	font-size:15px;
+	display:block;
+	text-align:center;
+	float:left;
+}
+.The-first-column div .The-first-column-2{
+	width:70px;height:20px;
+	color:#000;
+	font-size:15px;
+	text-align:center;
+	font-size:15px;
+	display:block;
+	float:left;	
+}
+.The-first-column div span{
+	width:11.13px;height:20px;
+	font-size:15px;
+	display:block;
+	float:left;
+}
+/*-- 第一屏大图 --*/
+img{width:100%;height:auto;}
+/*概要栏*/
+.overview{
+	width:100%;height:46px;
+	border-bottom:1px solid #9F9F9F;
+	padding:6px 0;
+}
+.overview .overview-center{
+	width:1170px;height:33px;
+	margin:0 auto;
+	padding:0 15px;
+	display:block;
+}
+.overview .overview-center .overview-ul{
+	width:1170px;height:33px;
+	margin-left:-5px;
+	display:block;
+	}
+.overview .overview-center .overview-ul li{
+	height:21px;
+	margin:6px 0;
+	padding:0 15px;
+	float:left;
+}
+.overview .overview-center .overview-ul .overview-li-first{
+	width:62px;
+	border-right:2px solid #9F9F9F;
+}
+.overview .overview-center .overview-ul .overview-li-middle{width:90px;	}
+.overview .overview-center .overview-ul .overview-li-last{width:89.891px;}
+.overview .overview-center .overview-ul li a{
+	color:#8D8D8D;
+	font-size:15px;
+}
+/*一楼*/
+.Values-Philosophy{width:100%;height:414px;}
+/*一楼·大标题*/
+.Values-Philosophy .Values-Philosophy-headline{
+	width:1170px;height:37.2px;
+	margin:30px auto 0;
+	padding:0 15px;
+}
+#headline{
+	width:100%;height:27px;
+	margin-bottom:10px;
+	color:#333;
+	font-size:25px;
+	font-weight:500;
+	line-height:1.1;
+	text-align:center;
+}
+/*一楼·内容*/
+.Values-Philosophy .Values-Philosophy-content{
+	width:1170px;height:396.8px;
+	margin:0 auto;
+	padding:0 15px;
+}
+
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul1{
+	width:1170px;height:137px;
+	margin:30px -15px 0;
+}
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul1 .Values-Philosophy-ul1-li-left{
+	width:487.5px;height:137px;
+	margin-left:195px;
+	padding:0 15px;
+	float:left;
+}
+.Values-Philosophy .Values-Philosophy-content ul li h3{
+	color:#333;
+	font-size:20px;
+	font-weight:normal;
+	line-height:1.1;
+	margin-bottom:15px;
+}
+.Values-Philosophy .Values-Philosophy-content ul li p{
+	height:20px;
+	color:#333;
+	font-size:14px;
+	font-weight:normal;
+	line-height:1.1;
+	margin:0 0 5px 5px;
+}
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul1 .Values-Philosophy-ul1-li-left .p1:after{
+	width:5px;height:5px;
+	content:"";
+	display:inline-block;
+	float:left;
+	margin-top:3px;
+	background:#666;
+	line-height:5px;
+}
+.Values-Philosophy .Values-Philosophy-content ul li{
+	width:390px;height:87px;
+	padding:0 15px;
+	float:left;
+}
+.Values-Philosophy .Values-Philosophy-content .line{
+	width:855px;height:1px;
+	border-bottom:1px solid	#ccc;
+	margin:20px 0 20px 190px;
+	padding:0 15px;
+	position:relative;
+}
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul2{
+	width:1170px;height:128px;
+	margin:0 -15px;	
+	}
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul2:before{
+	display:table;
+	content:"";
+	box-sizing:border-box;
+	margin-top:-40px;
+	padding-top:40px;
+}
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul2 .Values-Philosophy-ul2-li-left,
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul3 li{
+	width:487.5px;height:62px;
+	margin-left:195px;
+	padding:0 15px;
+}
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul3{
+	width:1170px;height:103px;
+	margin:0 -15px;
+}
+.Values-Philosophy .Values-Philosophy-content .Values-Philosophy-ul3:before{
+	display:table;
+	content:"";
+	box-sizing:border-box;
+	margin-top:-40px;
+	padding-top:40px;
+	}
+/*阴影*/
+.Values-Philosophy .Values-Philosophy-shadow{
+	width:100%;height:10px;
+	position:relative;
+	box-shadow:0 2px 10px #E6E6E6;
+}
+.Values-Philosophy .Values-Philosophy-shadow:after{
+  content:"";
+	width:100%;height:10px;
+	display:block;
+	background:#fff;
+	position:absolute;
+	top:-8px;
+}
+#businessNetwork{
+	width:1170px;height:78.8px;
+	margin:90px auto 30px;
+	padding:0 15px;
+	text-align:center;
+}
+#businessNetwork .a1{
+	width:210px;height:17px;
+	margin:0 auto;
+	color:#000;
+	font-size:15px;
+	line-height:1.42857143
+}
+#businessNetwork .a2{
+	width:75.56px;height:17px;
+	margin:0 auto;
+	color:#000;
+	font-size:15px;
+	line-height:1.42857143
+}
+/*---- 地图----*/
+#map{
+	width:1170px;height:400px;
+	padding:0 15px;
+	display:block;
+	margin:0 auto;
+}
+/*---- 企业责任模块 ----*/
+#social-responsibility{
+	width:100%;height:457.831px;
+}
+.social-responsibility-headline{
+	width:1170px;height:27px;
+	margin:30px auto;
+	padding:0 15px;
+}
+.social-responsibility-headline-h{
+	width:100%;height:27px;
+	color:#333;
+	font-size:25px;
+	font-weight:500;
+	line-height:1.1;
+	text-align:center;
+}
+.social-responsibility-content{
+	width:1170px;height:394.61px;
+	margin:0 auto 30px;
+	padding:0 15px;
+}
