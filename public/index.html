@@ -12,17 +12,39 @@
 <body>
 	<!--页头-->
 	<header id="header">
-		<iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
-	</header>
+			<iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+		</header>
 	<!--主体-->
-  	<!-- 轮播图 -->
-	<div class="viewpager">
-		<a href="#">
-			<img src="../images/index/c144e544-0e10-4820-9ab0-eef39fcdd015.jpg" alt=""/>
-		</a>
+	<!-- 焦点轮播图 -->
+	<div id="viewpager"  class="carousel" data-ride="carousel">
+		<!-- 轮播图片carousel-inner-->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+					<a href="#">
+						<img src="../images/index/c144e544-0e10-4820-9ab0-eef39fcdd015.jpg" alt="" class="w-100">
+					</a>
+			</div>
+			<div class="carousel-item">
+				<a href="#">
+					<img src="../images/index/test-head-service_website_51bf60ee37014535ae768b24fd54b71d.jpg" alt="" class="w-100">
+				</a>
+			</div>
+			<div class="carousel-item">
+				<a href="#">
+					<img src="../images/index/test-head-service_website_dd201ff19b2845bfb11fb1ab901ca056.jpg" alt="" class="w-100">
+				</a>
+			</div>
+		</div>
+		<!-- 轮播指示器-->
+		<ul class="carousel-indicators">
+			<li data-target="#viewpager" data-slide-to="0" class="active"></li>
+			<li data-target="#viewpager" data-slide-to="1"></li>
+			<li data-target="#viewpager" data-slide-to="2"></li>
+		</ul>
 	</div>
+
   <!-- 大标题 -->
-	<div class="headline">
+	<div class="headline1">
   <!-- 一楼	-->
 		<h3>产品与服务</h3>
 	</div>
@@ -56,7 +78,7 @@
 	</div>
 	<div class="shadow"></div>
 	<!-- 大标题 -->
-	<div class="headline">
+	<div class="headline2">
 		<h3>
 			<a href="#">创新科技</a>
 		</h3>
@@ -68,7 +90,7 @@
 		</a>
 	</div>
 	<!-- 大标题 -->
-	<div class="headline">
+	<div class="headline2">
 		<h3>热点新闻</h3>
 	</div>
 	<!-- 三楼 -->
@@ -108,6 +130,24 @@
 	  <iframe class="my_footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
   	</footer>
   	<!-- fixed -->
+  	<div class="fixed">
+	  	<div class="fixed-next">
+		  	<a href="#">
+			  	<span class="fixed-1"></span>
+		  	</a>
+	  	</div>
+	  	<div class="fixed-next">
+		  	<a href="#">
+			  	<span class="fixed-2"></span>
+		  	</a>
+	  	</div>
+	  	<div class="fixed-next">
+		  	<a href="#">
+			  	<span class="fixed-3"></span>
+		  	</a>
+	  	</div>
+	  </div>
+	  <!-- fixed -->
   	<div class="fixed">
 	  	<div class="fixed-next">
 		  	<a href="#">

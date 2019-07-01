@@ -1,6 +1,6 @@
 *{margin:0;padding:0;font-family:"Microsoft YaHei","微软雅黑";box-sizing:border-box;}
 a{text-decoration:none;}
-ul{list-style:none;}
+li{list-style: none;}
 div{display:block;}
 /*----头部显示高度----*/
 .my_header{
@@ -9,11 +9,13 @@ div{display:block;}
 
 /*----导航栏阴影----*/
 #header{
-	width:100%;height:90px;
-	position:absolute;
+	width: 100%;height: 90px;
 	box-shadow:0 2px 10px #E6E6E6;
+	position: absolute;
+	z-index: 999;
 	display: block;
 }
+
 /*----尾部显示高度----*/
 .my_footer{
 	width:100%;height:288.38px;
@@ -24,12 +26,36 @@ div{display:block;}
 }
 
 /*-----轮播图------*/
-.viewpager>a img{
+#viewpager{
 	width:100%;height:auto;
-	margin-top:90px;
+	display: block;
+  top:90px;
 }
+
+.carousel-indicators li{
+	width:10px;height:10px;
+	background:#96A1A5;
+	border-radius: 50%;
+	margin-right:3px;
+	margin-left:3px;
+	border: 1px solid #fff;
+}
+
+.carousel-indicators .active{
+	width:12px;height:12px;
+	border-radius:50%;
+	border: 1px solid #fff;
+	background:#fff;
+}
+
 /*-----大标题------*/
-.headline{
+.headline1{
+	width:1170px;height:27.2px;
+	margin:120px auto 34.6px;
+	text-align:center;
+	line-height:27.2px;
+}
+.headline2{
 	width:1170px;height:27.2px;
 	margin:30px auto 34.6px;
 	text-align:center;
@@ -76,7 +102,7 @@ div{display:block;}
 	position:absolute;
 }
 .img-list-box ul li a p{
-	width:380px;height:28px
+	width:380px;height:28px;
 display:block;
 	margin:20px 0 10px;
 	color:#333;
@@ -152,7 +178,7 @@ display:block;
 .fixed{
 	width:50px;height:158px;
 	position:fixed;
-	top:65%;
+	top:75%;
 	right:0;
 }
 .fixed .fixed-next{
@@ -163,17 +189,17 @@ display:block;
 	width:50px;height:50px;
 	display:block;
 	background:url("../images/fixed/go-top-icon.png") no-repeat 1px 0px;
-	opacity:0.6;
+	opacity:0.4;
 }
 .fixed .fixed-next .fixed-2{
 	width:50px;height:50px;
 	display:block;
 	background:url("../images/fixed/icon.png") no-repeat 0px -130px;
-	opacity:0.6;
+	opacity:0.4;
 }
 .fixed .fixed-next .fixed-3{
 	width:50px;height:50px;
 	display:block;
 	background:url("../images/fixed/icon.png") no-repeat 0px -250px;
-	opacity:0.6;
+	opacity:0.4;
 }
