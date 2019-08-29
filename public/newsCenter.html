@@ -3,17 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BOE官网_新闻中心</title>
-	<link rel="stylesheet" href="../css/bootstrap.css"/>
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/popper.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="../css/newsCenter.css" />
+	<link rel="stylesheet" href="./css/bootstrap.css"/>
+	<link rel="stylesheet" href="./css/newsCenter.css" />
 </head>
 <body>
   <!--页头-->
-  <header id="header">
-    <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
-  </header>
+  <header id="header"></header>
   <!--主体-->
   <table></table>
   <!-- 首栏 -->
@@ -25,68 +20,71 @@
   </div>
   <div class="companyNews">
     <ul class="companyNews-ul row">
-      <li class="companyNews-viewpager col-md-5 col-sm-6 col-xs-12">
+      <li class="companyNews-viewpager col-lg-5 col-md-6 col-sm-12">
         <!-- 公司动态焦点轮播图-->
-        <div id="demo1" class="carousel" data-ride="carousel">
-          <!-- 1.轮播图片carousel-inner-->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a href="#">
-                <img src="/images/newsCenter/companyNews-01.jpg" alt="" class="w-100">
-             </a>
+        <div id="banner">
+          <div id="btn-left">&lt;</div>
+          <ul id="ul-imgs">
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/c01.jpg" class="w-100">
+              </a>
+              <p>BOE（京东方）与平安集团签订战略合作协议</p>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/c02.jpg" class="w-100">
+              </a>
+              <p>BOE（京东方）绵阳第6代柔性AMOLED生产线量产</p>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/c03.jpg" class="w-100">
+              </a>
               <p>国家开发银行行长郑之杰一行 调研合肥京东方医院及京东方10.5代线项目</p>
-            </div>
-            <div class="carousel-item">
-              <a href="#">
-                <img src="/images/newsCenter/companyNews-02.jpg" alt="" class="w-100">
-              </a> 
-              <p>BOE（京东方）创新显示技术亮相2019国际新型显示技术展</p>
-            </div>
-              <div class="carousel-item">
-              <a href="#">
-                <img src="/images/newsCenter/companyNews-03.jpg" alt="" class="w-100">
+            </li>
+            <li><a href="javascript:;">
+              <img src="./images/newsCenter/c04.jpg" class="w-100">
+            </a>
+            <p>BOE（京东方）创新显示技术亮相2019国际新型显示技术展</p>
+          </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/c01.jpg" class="w-100">
               </a>
-              <p>BOE（京东方）携手格力带来智慧物联新生活</p>
-            </div>
-            <div class="carousel-item">
-              <a href="#">
-                <img src="/images/newsCenter/companyNews-04.jpg" alt="" class="w-100">
-              </a>
-              <p>BOE（京东方）创新显示解决方案亮相日本商用显示展</p>
-            </div>
-          </div>
-          <!-- 2.左右箭头-->
-          <a data-slide="prev" href="#demo1" class="carousel-control-prev">
-            <span class="carousel-control-prev-icon">&lt;</span>
-          </a>
-          <a data-slide="next" href="#demo1" class="carousel-control-next">
-            <span class="carousel-control-next-icon">&gt;</span>
-          </a>
+              <p>BOE（京东方）与平安集团签订战略合作协议</p>
+            </li>
+          </ul>
+          <div id="btn-right">&gt;</div>
         </div>    
       </li>
-      <li class="content col-md-5 col-sm-6 col-xs-12">
+      <li class="content col-lg-7 col-md-6 col-sm-12">
         <div>
           <h3 class="headline">公司动态</h3>
           <ul class="content-ul">
-            <li class="content-li">
-              <a href="#" class="text">陈炎顺接任BOE（京东方）新一届董事长</a>
-              <span class="float-right text">2019-06-28</span>
+            <li id="cn1"  class="content-li">
+              <!-- <a href="#" class="text">陈炎顺接任BOE（京东方）新一届董事长
+                <span class="float-right text">2019-06-28</span>
+              </a> -->
             </li>
-            <li class="content-li">
-              <a href="#" class="text">国家开发银行行长郑之杰一行 调研合肥京东方医院及京东方10.5代线项目</a>
-              <span class="float-right text">2019-06-27</span>
+            <li id="cn2" class="content-li">
+              <!-- <a href="#" class="text">国家开发银行行长郑之杰一行 调研合肥京东方医院及京东方10.5代线项目
+                <span class="float-right text">2019-06-27</span>
+              </a> -->
             </li>
-            <li class="content-li">
-              <a href="#" class="text">BOE（京东方）创新显示技术亮相2019国际新型显示技术展</a>
-              <span class="float-right text">2019-06-26</span>
+            <li id="cn3" class="content-li">
+              <!-- <a href="#" class="text">BOE（京东方）创新显示技术亮相2019国际新型显示技术展
+                <span class="float-right text">2019-06-26</span>
+              </a> -->
             </li>
-            <li class="content-li">
-              <a href="#" class="text">BOE（京东方）携手格力带来智慧物联新生活</a>
-              <span class="float-right text">2019-06-18</span>
+            <li id="cn4" class="content-li">
+              <!-- <a href="#" class="text">BOE（京东方）携手格力带来智慧物联新生活
+                <span class="float-right text">2019-06-18</span>
+              </a> -->
             </li>
           </ul>
         </div>
-        <a href="#" class="button">了解更多</a>
+        <a href="./companyNewsList.html" class="button">了解更多</a>
       </li>
     </ul>
   </div>
@@ -94,73 +92,75 @@
   <div class="mediaPerspective">
     <ul class="mediaPerspective-ul row">
       <li class="mediaPerspective-viewpager col-md-5 col-sm-6 col-xs-12">
-        <!-- 媒体视角动态焦点轮播图-->
-        <div id="demo2" class="carousel" data-ride="carousel">
-          <!-- 1.轮播图片carousel-inner-->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a href="#">
-                <img src="/images/newsCenter/mediaPerspective-01.jpeg" alt="" class="w-100">
+          <div id="banner">
+          <div id="btn-left">&lt;</div>
+          <ul id="ul-imgs">
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/m01.jpeg" class="w-100">
               </a>
               <p>【CCTV】加油向未来！BOE柔性屏展示柔性显示魅力</p>
-            </div>
-            <div class="carousel-item">
-              <a href="#">
-                <img src="/images/newsCenter/mediaPerspective-02.jpeg" alt="" class="w-100">
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/m02.jpeg" class="w-100">
               </a>
               <p>【CCTV】大国重器 京东方</p>
-            </div>
-            <div class="carousel-item">
-              <a href="#">
-                <img src="/images/newsCenter/mediaPerspective-03.jpeg" alt="" class="w-100">
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/m03.jpeg" class="w-100">
               </a>
               <p>8K时代开启 上下游合力催熟千亿元产业？</p>
-            </div>
-            <div class="carousel-item">
-              <a href="#">
-                <img src="/images/newsCenter/mediaPerspective-01.jpeg" alt="" class="w-100">
+            </li>
+            <li><a href="javascript:;">
+              <img src="./images/newsCenter/m04.jpeg" class="w-100">
+            </a>
+            <p>8K产业各板块已就位 补足短板后将蓬勃发展</p>
+          </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./images/newsCenter/m01.jpeg" class="w-100">
               </a>
-              <p>8K产业各板块已就位 补足短板后将蓬勃发展</p>
-            </div>
-          </div>
-          <a data-slide="prev" href="#demo2" class="carousel-control-prev">
-            <span class="carousel-control-prev-icon">&lt;</span>
-          </a>
-          <a data-slide="next" href="#demo2" class="carousel-control-next">
-            <span class="carousel-control-next-icon">&gt;</span>
-          </a>
+              <p>【CCTV】加油向未来！BOE柔性屏展示柔性显示魅力</p>
+            </li>
+          </ul>
+          <div id="btn-right">&gt;</div>
         </div>    
       </li>
       <li class="content col-md-5 col-sm-6 col-xs-12">
         <div>
           <h3 class="headline">媒体视角</h3>
           <ul class="content-ul">
-            <li class="content-li">
-              <a href="#" class="text">【CCTV】加油向未来！BOE柔性屏展示柔性显示魅力</a>
-              <span class="float-right text">2018-11-19</span>
+            <li id="media1" class="content-li">
+              <!-- <a href="#" class="text">【CCTV】加油向未来！BOE柔性屏展示柔性显示魅力
+                <span class="float-right text">2018-11-19</span>
+              </a> -->
             </li>
-            <li class="content-li">
-              <a href="#" class="text">“跳出显示看显示”，初探8K元年背后京东方的大物联网战略！</a>
-              <span class="float-right text">2018-06-08</span>
+            <li id="media2" class="content-li">
+              <!-- <a href="#" class="text">“跳出显示看显示”，初探8K元年背后京东方的大物联网战略！
+                <span class="float-right text">2018-06-08</span>
+              </a> -->
             </li>
-            <li class="content-li">
-              <a href="#" class="text">中国大陆有望领跑8K面板市场</a>
-              <span class="float-right text">2018-03-19</span>
+            <li id="media3" class="content-li">
+              <!-- <a href="#" class="text">中国大陆有望领跑8K面板市场
+                <span class="float-right text">2018-03-19</span>
+              </a> -->
             </li>
-            <li class="content-li">
-              <a href="#" class="text">【CCTV】大国重器 京东方</a>
-              <span class="float-right text">2018-03-03</span>
+            <li id="media4" class="content-li">
+              <!-- <a href="#" class="text">【CCTV】大国重器 京东方
+                <span class="float-right text">2018-03-03</span>
+              </a> -->
+             
             </li>
           </ul>
         </div>
-        <a href="#" class="button">了解更多</a>
+        <a href="javascript:;" class="button">了解更多</a>
       </li>
     </ul>
   </div>
   <!--页尾-->
-  <footer id="footer">
-	  <iframe class="my_footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
-  </footer>
+  <footer id="footer"></footer>
   <!-- fixed -->
   <div class="fixed">
     <div class="fixed-next">
@@ -179,5 +179,13 @@
       </a>
     </div>
   </div>  
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/jquery-1.11.3.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/newsCenter.js"></script>
+  <!-- <script src="./js/banner2.js"></script> -->
+  <script src="./js/footer.js"></script>
 </body>
 </html>

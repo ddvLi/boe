@@ -3,46 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BOE官网_京东方官网</title>
-	<link rel="stylesheet" href="../css/bootstrap.css"/>
-	<script src="../js/jquery.min.js"></script>
-	<script src="../js/popper.min.js"></script>
-	<script src="../js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="./css/bootstrap.css"/>
+	<link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
 	<!--页头-->
-	<header id="header">
-			<iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
-		</header>
+	<header id="header"></header>
 	<!--主体-->
 	<!-- 焦点轮播图 -->
-	<div id="viewpager"  class="carousel" data-ride="carousel">
-		<!-- 轮播图片carousel-inner-->
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-					<a href="#">
-						<img src="../images/index/c144e544-0e10-4820-9ab0-eef39fcdd015.jpg" alt="" class="w-100">
-					</a>
-			</div>
-			<div class="carousel-item">
-				<a href="#">
-					<img src="../images/index/test-head-service_website_51bf60ee37014535ae768b24fd54b71d.jpg" alt="" class="w-100">
+	<div id="banner">
+		<ul id="ul-imgs">
+			<li>
+				<a href="javascript:;">
+					<img src="./images/index/c144e544-0e10-4820-9ab0-eef39fcdd015.jpg" alt="">
 				</a>
-			</div>
-			<div class="carousel-item">
-				<a href="#">
-					<img src="../images/index/test-head-service_website_dd201ff19b2845bfb11fb1ab901ca056.jpg" alt="" class="w-100">
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="./images/index/test-head-service_website_51bf60ee37014535ae768b24fd54b71d.jpg" alt="">
 				</a>
-			</div>
-		</div>
-		<!-- 轮播指示器-->
-		<ul class="carousel-indicators">
-			<li data-target="#viewpager" data-slide-to="0" class="active"></li>
-			<li data-target="#viewpager" data-slide-to="1"></li>
-			<li data-target="#viewpager" data-slide-to="2"></li>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="./images/index/test-head-service_website_dd201ff19b2845bfb11fb1ab901ca056.jpg" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="./images/index/c144e544-0e10-4820-9ab0-eef39fcdd015.jpg" alt="">
+				</a>
+			</li>
+		</ul>
+		<ul id="ul-idxs">
+			<li class="active"></li>
+			<li></li>
+			<li></li>
 		</ul>
 	</div>
-
   <!-- 大标题 -->
 	<div class="headline1">
   <!-- 一楼	-->
@@ -53,7 +50,7 @@
 			<li>
 				<a href="#">
 					<div>
-						<img src="../images/index/04c47403-6913-4e67-9980-23519d27183a.jpeg" alt="" />
+						<img src="./images/index/04c47403-6913-4e67-9980-23519d27183a.jpeg" alt="" />
 					</div>
 					<p>端口器件</p>
 				</a>
@@ -61,7 +58,7 @@
 			<li>
 				<a href="#">
 					<div>
-						<img src="../images/index/b0bbc9ee-bc75-4200-b924-ed9cec857100.jpeg" alt="" />
+						<img src="./images/index/b0bbc9ee-bc75-4200-b924-ed9cec857100.jpeg" alt="" />
 					</div>
 					<p>智慧物联</p>
 				</a>
@@ -69,7 +66,7 @@
 			<li>
 				<a href="#">
 					<div>
-						<img src="../images/index/5a09c5c6-021d-4560-92e8-5fdc22bd9bed.jpeg" alt="" />
+						<img src="./images/index/5a09c5c6-021d-4560-92e8-5fdc22bd9bed.jpeg" alt="" />
 					</div>
 					<p>智慧医工</p>
 				</a>
@@ -86,7 +83,7 @@
 	<!-- 二楼 -->
 	<div id="video-img-modal">
 		<a href="#">
-			<img src="../images/index/a24ca558-bf21-4c2f-8b87-9592d0c92416.jpeg" alt="" />
+			<img src="./images/index/a24ca558-bf21-4c2f-8b87-9592d0c92416.jpeg" alt="" />
 		</a>
 	</div>
 	<!-- 大标题 -->
@@ -97,73 +94,79 @@
 	<div class="new-box">
 		<ul>
 			<li>
-				<div>
-					<img src="../images/index/f3880518-e768-4c91-9ab0-530f5d835f62.jpeg" alt="" />
+				<div id="p1">
+					<!-- <img src="../images/index/boe_hotNews-01.jpg" alt="" />
 					<div class="new-text">
 						<p>【CCTV】加油向未来！<br />BOE柔性屏展示柔性显示魅力</p>
 						<a href="#">阅读全文></a>
-					</div>
+					</div> -->
 				</div>
 			</li>
 			<li>
-				<div>
-					<img src="../images/index/071b617d-3705-4f8f-931f-8bb261b84925.jpeg" alt="" />
+				<div id="p2">
+					<!-- <img src="../images/index/boe_hotNews-02.jpg" alt="" />
 					<div class="new-text">
 						<p>BOE（京东方）全球创新伙伴大会·2018召开<br />携手共建物联网新生态</p>
 						<a href="#">阅读全文></a>
-					</div>
+					</div> -->
 				</div>
 			</li>
 			<li>
-				<div>
-					<img src="../images/index/215c064d-ea2b-4db5-b268-95b04a9284a4.jpeg" alt="" />
+				<div id="p3">
+					<!-- <img src="../images/index/boe_hotNews-03.jpg" alt="" />
 					<div class="new-text">
 						<p>聚焦SID2018：BOE（京东方）<br />展示8K、柔性等创新显示解决方案</p>
 						<a href="#">阅读全文></a>
-					</div>
+					</div> -->
 				</div>
 			</li>
 		</ul>
 	</div>
 	<!--页尾-->
-  	<footer id="footer">
-	  <iframe class="my_footer" src="footer.html" frameborder="0" scrolling="no"></iframe>
-  	</footer>
-  	<!-- fixed -->
-  	<div class="fixed">
-	  	<div class="fixed-next">
-		  	<a href="#">
-			  	<span class="fixed-1"></span>
-		  	</a>
-	  	</div>
-	  	<div class="fixed-next">
-		  	<a href="#">
-			  	<span class="fixed-2"></span>
-		  	</a>
-	  	</div>
-	  	<div class="fixed-next">
-		  	<a href="#">
-			  	<span class="fixed-3"></span>
-		  	</a>
-	  	</div>
-	  </div>
-	  <!-- fixed -->
-  	<div class="fixed">
-	  	<div class="fixed-next">
-		  	<a href="#">
-			  	<span class="fixed-1"></span>
-		  	</a>
-	  	</div>
-	  	<div class="fixed-next">
-		  	<a href="#">
-			  	<span class="fixed-2"></span>
-		  	</a>
-	  	</div>
-	  	<div class="fixed-next">
-		  	<a href="#">
-			  	<span class="fixed-3"></span>
-		  	</a>
-	  	</div>
-  	</div>
+	<footer id="footer"></footer>
+	<!-- fixed -->
+	<div class="fixed">
+		<div class="fixed-next">
+			<a href="#">
+				<span class="fixed-1"></span>
+			</a>
+		</div>
+		<div class="fixed-next">
+			<a href="#">
+				<span class="fixed-2"></span>
+			</a>
+		</div>
+		<div class="fixed-next">
+			<a href="#">
+				<span class="fixed-3"></span>
+			</a>
+		</div>
+	</div>
+	<!-- fixed -->
+	<div class="fixed">
+			<div class="fixed-next">
+				<a href="#">
+					<span class="fixed-1"></span>
+				</a>
+			</div>
+			<div class="fixed-next">
+				<a href="#">
+					<span class="fixed-2"></span>
+				</a>
+			</div>
+			<div class="fixed-next">
+				<a href="#">
+					<span class="fixed-3"></span>
+				</a>
+			</div>
+		</div>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/jquery-1.11.3.js"></script>
+	<script src="./js/header.js"></script>
+	<script src="./js/index.js"></script>
+	<script src="./js/banner1.js"></script>
+	<script src="./js/footer.js"></script>
 </body>
 </html>

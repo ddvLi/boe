@@ -1,57 +1,911 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width"/>
-  <title></title>
-  <!-- dsd -->
-  <link rel="stylesheet" href="../css/bootstrap.css">
-  <script src="../js/jquery.min.js"></script>
-  <script src="../js/popper.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="../css/header.css" />
-</head>
-<body>
-	<!--页头-->
-	<div class="header">
+<header id="header">
+  <div class="header">
     <div class="header-center">
-    	<div class="list">
+      <div class="list row">
         <!-- 导航栏·左边模块 -->
-        <div class="list-left">
-          <ul class="ul-left">
-            <li class="li-left-1">
-              <a href="#">
+        <div class="list-left col-xl-6 col-lg-6 col-md-5 col-sm-3 col-xs-3">
+          <ul class="ul-left row">
+            <li class="li-left-1 col-xl-3 col-lg-3 col-md-3 text-left">
+              <a href="./index.html">
                 <span class="logo header-logo"></span>
               </a>
             </li>
-            <li class="li-left-2"><a href="#">产品与服务</a></li>
-            <li class="li-left-2"><a href="#">创新科技</a></li>
-            <li class="li-left-2"><a href="#">新闻中心</a></li>
-            <li class="li-left-2"><a href="#">BOE商城</a></li>
+            <li class="li-left-2 col-xl-2 col-lg-2 col-md-2">
+              <a href="javascript:;" id="mune_btn1">产品与服务</a>
+              <span class="line1"></span>
+            </li>
+            <li class="li-left-2 col-xl-2 col-lg-2 col-md-2">
+              <a href="./Innovative_Technologie.html" id="mune_btn2">创新科技</a>
+              <span class="line2"></span>
+            </li>
+            <li class="li-left-2 col-xl-2 col-lg-2 col-md-2">
+              <a href="./newsCenter.html" id="mune_btn3">新闻中心</a>
+            </li>
+            <li class="li-left-2 col-xl-2 col-lg-2 col-md-2">
+              <a href="./boeMall.html" id="mune_btn3">BOE商城</a>
+            </li>
           </ul>
         </div>
         <!-- 导航栏·右边模块 -->
-      	<div class="list-right">
+        <div class="list-right col-xl-5 col-lg-5 col-md-7 col-sm-9 col-xs-9 col-lg-setMl1">
           <ul class="ul1-right">
-            <li class="li-right1-1"><a href="#">关于我们</a></li>
-            <li class="li-right1-2"><a href="#">投资者关系</a></li>
-            <li class="li-right1-3"><a href="#">加入我们</a></li>
-            <li class="li-right1-4"><a href="#">多媒体中心</a></li>
-          </ul>
-          <ul class="ul2-right">
-            <li class="li-right2-1">
-              <input type="text" placeholder="请输入关键字">
-              <a href="#">
-                <span id="search"></span>
-              </a>
+            <li>
+              <a href="#">关于我们</a>
             </li>
-            <li class="li-right2-2">
-              <a href="#">English</a>
+            <li class="left_mar">
+              <a href="#">投资者关系</a>
+            </li>
+            <li class="left_mar">
+              <a href="#">加入我们</a>
+            </li>
+            <li class="left_mar">
+              <a href="#">多媒体中心</a>
             </li>
           </ul>
-        </div>
+          <ul class="ul2-right row">
+            <li class="li-right2-1 col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7 mx-0">
+              <div class="search-box">
+                <input type="text" placeholder="请输入关键词">
+                <a href="#">
+                  <span id="search"></span>
+                </a>
+              </div>
+            </li>
+            <li class="li-right2-2 col-xl-4 col-lg-4 col-md-5 col-sm-5 col-xs-5 col-lg-setMl my-0">
+              <!-- 小屏幕下拉单按钮 -->
+              <div class="menu_btn_pad">
+                <i class="i1"></i>
+                <i class="i2"></i>
+              </div>
+              <!-- 大屏幕下English切换按钮 -->
+              <div class="btn_en">
+                <a href="#">English</a>
+              </div>
+            </li>
+          </ul>
+        </div>     
       </div>
-		</div>
-	</div>
-</body>
-</html>
+    </div>
+  </div>
+  <!-- 导航栏阴影 -->
+  <div class="header_shadow"></div>
+  <!-- pc端下拉菜单 -->
+  <!-- 产品与服务下拉菜单 --> 
+  <div id="pc1" class="menu_pc">
+    <div class="menu_pc_center">
+      <ul class="menu_pc_ul mb-0 row">
+        <li class="col-xl-3 col-lg-4 col-xl-setMl">
+          <ul class="row">
+            <li class="menu_pc_title col-xl-12 col-lg-12 col-md-12">
+              <a href="javascript:;" class="a1">端口器件</a>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul class="row">
+                <li class="two_menu_title col-xl-12 col-lg-12 col-md-12">
+                  <a href="javascript:;">TFT-LCD</a>
+                  <ul class="two_menu_item ul_t1 row">
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">移动类显示产品</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">  
+                      <a href="javascript:;">IT显示类产品</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">电视产品</a></li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">商用显示产品</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">新应用显示产品</a>
+                    </li>
+                    <img src="./images/header/01.png" alt="" class="image img_t1">
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul class="row">
+                <li class="two_menu_title col-xl-12 col-lg-12 col-md-12">
+                  <a href="javascript:;">AMOLED</a>
+                  <ul class="two_menu_item ul_t2 row">
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">手机产品</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">电视产品</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <img src="./images/header/01.png" alt="" class="image img_t2">
+                  </ul>
+              </ul>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul class="row">
+                <li class="two_menu_title col-xl-12 col-lg-12 col-md-12">
+                  <a href="javascript:;">微显示</a>
+                  <ul class="two_menu_item ul_t3 row">
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">VR/AR</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <img src="./images/header/01.png" alt="" class="image img_t3">
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul class="row">
+                <li class="two_menu_title col-xl-12 col-lg-12 col-md-12">
+                  <a href="javascript:;">传感器</a>
+                  <ul class="two_menu_item ul_t4 row">
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">光传感器</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">指纹识别</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <img src="./images/header/01.png" alt="" class="image img_t4">
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="col-xl-3 col-lg-4 col-xl-setMl">
+          <ul class="row">
+            <li class="menu_pc_title col-xl-12 col-lg-12 col-md-12">
+              <a href="" class="a2">智慧物联</a>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul class="row">
+                <li class="two_menu_title col-xl-12 col-lg-12 col-md-12">
+                  <a href="#">智慧零售</a>
+                  <ul class="two_menu_item ul_t1 row">
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">艺术零售解决方案-BOE画屏</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">  
+                      <a href="javascript:;">商超零售解决方案</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">金融零售解决方案</a></li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">智慧显示解决方案</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <img src="./images/header/01.png" alt="" class="image img_t1">
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul class="row">
+                <li class="two_menu_title col-xl-12 col-lg-12 col-md-12">
+                  <a href="#">制造服务</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul>
+                <li class="two_menu_title">
+                  <a href="#">智慧能源</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul>
+                <li class="two_menu_title">
+                  <a href="#">智慧车联</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li> 
+        <li class="col-xl-3 col-lg-4 col-xl-setMl">
+          <ul class="row">
+            <li class="menu_pc_title col-xl-12 col-lg-12 col-md-12">
+              <a href="" class="a2">智慧医工</a>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul clss="row">
+                <li class="two_menu_title">
+                  <a href="#">移动健康</a>
+                  <ul class="two_menu_item ul_t1 row ul_left">
+                      <li class="col-xl-12 col-lg-12 col-md-12">
+                        <a href="javascript:;">产品解决方案</a>
+                      </li>
+                      <li class="col-xl-12 col-lg-12 col-md-12">  
+                        <a href="javascript:;"></a>
+                      </li>
+                      <li class="col-xl-12 col-lg-12 col-md-12">
+                        <a href="javascript:;"></a></li>
+                      <li class="col-xl-12 col-lg-12 col-md-12">
+                        <a href="javascript:;"></a>
+                      </li>
+                      <li class="col-xl-12 col-lg-12 col-md-12">
+                        <a href="javascript:;"></a>
+                      </li>
+                      <img src="./images/header/01.png" alt="" class="image img_t1">
+                    </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+              <ul>
+                <li class="two_menu_title">
+                  <a href="#">健康服务</a>
+                  <ul class="two_menu_item ul_t2 row ul_left">
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">数字医院</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">数字人体</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">再生医学</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;">解决方案</a>
+                    </li>
+                    <li class="col-xl-12 col-lg-12 col-md-12">
+                      <a href="javascript:;"></a>
+                    </li>
+                    <img src="./images/header/01.png" alt="" class="image img_t2">
+                    </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- 创新科技下拉菜单 -->
+  <div id="pc2" class="menu_pc">
+      <div class="menu_pc_center">
+        <ul class="menu_pc_ul mb-0 row">
+          <li class="col-xl-3 col-lg-4 col-xl-setMl">
+            <ul class="row">
+              <li class="menu_pc_title col-xl-12 col-lg-12 col-md-12">
+                <a href="javascript:;">BOE创新</a>
+              </li>
+            </ul>
+          </li>
+          <li class="col-xl-3 col-lg-4 col-xl-setMl">
+            <ul class="row">
+              <li class="menu_pc_title col-xl-12 col-lg-12 col-md-12">
+                <a href="">科技知乎</a>
+              </li>
+            </ul>
+          </li> 
+          <li class="col-xl-3 col-lg-4 col-xl-setMl">
+            <ul class="row">
+              <li class="menu_pc_title col-xl-12 col-lg-12 col-md-12">
+                <a href="" class="a2">创新平台</a>
+              </li>
+              <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+                <ul clss="row">
+                  <li class="two_menu_title">
+                    <a href="#">协同创新平台</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_item col-xl-12 col-lg-12 col-md-6">
+                <ul>
+                  <li class="two_menu_title">
+                    <a href="#">创想空间</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>   
+  <!-- pad端下拉菜单 -->
+  <div class="menu_pad">
+    <ul class="menu_pad_list1 row mx-0">
+      <li class="col-xs-12">
+        <div class="clickobj1 black1 d1">
+          <a href="javascript:;">产品与服务</a>
+          <span class="jt">
+            <img src="./images/header/jt.png" alt="">
+          </span>
+        </div>
+        <ul class="menu_pad_list2 row">
+          <li class="col-xs-12">
+            <div class="clickobj2 d2">
+              <a href="">端口器件</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+            <ul class="menu_pad_list3 row">
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">TFT-LCD</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul class="menu_pad_list4 row">
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">移动类显示产品</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">IT类显示产品</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">电视产品</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">商用显示产品</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">新应用显示产品</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">AMOLED</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul class="menu_pad_list4 row">
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">手机产品</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">电视产品</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">微显示</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul class="menu_pad_list4 row">
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">VR/AR</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">传感器</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul class="menu_pad_list4 row">
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">光传感器</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">指纹识别</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="col-xs-12">
+            <div class="clickobj2 d2">
+              <a href="">智慧物联</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+            <ul class="menu_pad_list3 row">
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">智慧零售</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul class="menu_pad_list4 row">
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">艺术零售解决方案-BOE画屏</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">商超零售解决方案</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">金融零售解决方案</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">智慧显示解决方案</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">智造服务</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul></ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">智慧能源</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul></ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">智慧车联</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul></ul>
+              </li>
+            </ul>
+          </li>
+          <li class="col-xs-12">
+            <div class="clickobj2 d2">
+              <a href="">智慧医工</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+            <ul class="menu_pad_list3 row">
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">移动健康</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul class="menu_pad_list4 row">
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">产品解决方案</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">健康服务</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul class="menu_pad_list4 row">
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">数字医院</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">数字人体</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">再生医学</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                  <li class="col-xs-12">
+                    <div class="clickobj4 d4">
+                      <a href="javascript:;">解决方案</a>
+                      <!-- <span class="jt">
+                        <img src="./images/header/jt.png" alt="">
+                      </span> -->
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12">
+        <div class="clickobj1 d1 black1">
+          <a href="javascript:;">创新科技</a>
+          <span class="jt cxkj">
+            <img src="./images/header/jt.png" alt="">
+          </span>
+        </div>
+        <ul class="menu_pad_list2 row">
+          <li class="col-xs-12">
+            <div class="clickobj2 d2">
+              <a href="">BOE创新</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+            <ul class="menu_pad_list3"></ul>
+          </li>
+          <li class="col-xs-12">
+            <div class="clickobj2 d2">
+              <a href="">科技知乎</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+            <ul class="menu_pad_list3"></ul>
+          </li>
+          <li class="col-xs-12">
+            <div class="clickobj2 d2">
+              <a href="">创新平台</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+            <ul class="menu_pad_list3 row">
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">协同创新平台</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul></ul>
+              </li>
+              <li class="col-xs-12">
+                <div class="clickobj3 d3">
+                  <a href="javascript:;">创想空间</a>
+                  <span class="jt">
+                    <img src="./images/header/jt.png" alt="">
+                  </span>
+                </div>
+                <ul></ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12">
+        <div class="clickobj1 d1 black1">
+          <a href="javascript:;">新闻中心</a>
+          <span class="jt">
+            <img src="./images/header/jt.png" alt="">
+          </span>
+        </div>
+        <ul class="menu_pad_list2 row">
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">公司动态</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">媒体视角</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12">
+        <div class="clickobj1 d1 black1">
+          <a href="javascript:;">关于我们</a>
+          <span class="jt">
+            <img src="./images/header/jt.png" alt="">
+          </span>
+        </div>
+        <ul class="menu_pad_list2 row">
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">公司介绍</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">管理团队</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">企业荣誉</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">社会责任</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">BOE全球</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12">
+        <div class="clickobj1 d1 black1">
+          <a href="javascript:;">投资者关系</a>
+          <span class="jt">
+            <img src="./images/header/jt.png" alt="">
+          </span>
+        </div>
+        <ul class="menu_pad_list2 row">
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">股票信息</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">公司公告</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">财务信息</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">社会责任</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">公司治理</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">投资者服务</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12">
+        <div class="clickobj1 d1 black1">
+          <a href="javascript:;">加入我们</a>
+          <span class="jt">
+            <img src="./images/header/jt.png" alt="">
+          </span>
+        </div>
+        <ul class="menu_pad_list2 row">
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">校园招聘</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">社会招聘</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">财务信息</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">海外招聘</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">员工成长</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">员工福利</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul> 
+      </li>
+      <li class="col-xs-12">
+        <div class="clickobj1 d1 black1">
+          <a href="javascript:;">多媒体中心</a>
+          <span class="jt">
+            <img src="./images/header/jt.png" alt="">
+          </span>
+        </div>
+        <ul class="menu_pad_list2 row">
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">公司视频</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+          <li class="col-xs-12">
+            <div class="d2">
+              <a href="">BOE说</a>
+              <span class="jt">
+                <img src="./images/header/jt.png" alt="">
+              </span>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="col-xs-12">
+        <div class="clickobj1 d1">
+          <a href="javascript:;" class="en">English</a>
+          <span class="jt"></span>
+        </div>
+        <ul></ul>
+      </li>
+    </ul>
+  </div>
+</header>
+
